@@ -1,0 +1,10 @@
+{
+    "short_name": "Payment System",
+    "name": "Payment & License Delivery System",
+    "icons": [],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+  }
+  

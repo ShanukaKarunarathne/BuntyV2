@@ -1,0 +1,23 @@
+{
+    "name": "payment-system",
+    "version": "1.0.0",
+    "description": "Payment & License Delivery System",
+    "main": "index.js",
+    "scripts": {
+      "start": "concurrently \"npm run server\" \"npm run client\"",
+      "server": "cd server && node server.js",
+      "client": "cd client && npm start",
+      "install-all": "npm install && cd client && npm install && cd ../server && npm install"
+    },
+    "keywords": [
+      "payment",
+      "license",
+      "delivery"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "concurrently": "^7.6.0"
+    }
+  }
+  
